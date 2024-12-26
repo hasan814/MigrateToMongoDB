@@ -1,0 +1,16 @@
+{
+  "name": "data-migration",
+  "version": "1.0.0",
+  "description": "Script to migrate WordPress posts to MongoDB.",
+  "main": "scripts/migratePosts.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/migratePosts.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "mongoose": "^8.9.2",
+    "mysql2": "^3.12.0"
+  }
+}
